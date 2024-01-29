@@ -5,6 +5,16 @@
     box-sizing:border-box;
 }
 
+/*General style */
+body {
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+    /*Generic project style*/
+    color: #3a3a3a;
+
+}
+
 
 /* Header */
 Header {
@@ -14,6 +24,8 @@ Header {
 /*main content */
 Main {
     background-color: lightblue;
+    /*make main element push footer*/
+    flex: 1 0 auto;
 }
 
 /*footer*/
