@@ -1,7 +1,10 @@
+/*google fonts-import*/
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the brower*/
 * {
     padding:0;
-    margin:0;
+    margin: 0;
     box-sizing:border-box;
 }
 
@@ -12,6 +15,8 @@ body {
     flex-direction: column;
     /*Generic project style*/
     color: #3a3a3a;
+    font-family: 'Honk', 'Open Sans';
+    
 
 }
 
@@ -19,6 +24,7 @@ body {
 /* Header */
 Header {
     background-color: lightcoral;
+    font-family: 'Honk';
 }
 
 /*main content */
@@ -26,9 +32,11 @@ Main {
     background-color: lightblue;
     /*make main element push footer*/
     flex: 1 0 auto;
+    font-family: 'Open Sans';
 }
 
 /*footer*/
 footer {
     background-color: orange;
+    font-family: 'Open Sans';
 }
