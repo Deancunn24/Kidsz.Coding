@@ -1,23 +1,22 @@
 /*google fonts-import*/
+
 @import url('https://fonts.googleapis.com/css2?family=Honk&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the brower*/
 * {
-    padding:0;
+    padding: 0;
     margin: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 /*General style */
 body {
-    min-height:100vh;
-    display:flex;
+    min-height: 100vh;
+    display: flex;
     flex-direction: column;
     /*Generic project style*/
     color: #3a3a3a;
     font-family: 'Honk', 'Open Sans';
-    
-
 }
 
 
