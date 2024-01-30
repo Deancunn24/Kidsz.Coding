@@ -16,19 +16,48 @@ body {
     flex-direction: column;
     /*Generic project style*/
     color: #3a3a3a;
-    font-family: 'Honk', 'Open Sans';
+    font-family: 'Honk','Open Sans';
 }
 
 
 /* Header */
-Header {
-    background-color: lightcoral;
-    font-family: 'Honk';
+header {
+    background-color:#ffffff;
+    padding: o 1rem;
+    position: fixed;
+    z-index: 99;
+    Width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+header a {
+    text-decoration:none;
+    color: inherit;
+
 }
 
+h1 {
+    font-family: 'Honk';
+    text-transform: uppercase;
+    letter-spacing:2px;
+    color:#252525:
+}
+
+#menu {
+    font-size:110%;
+    letter-spacing: 4px;
+    list-style-type:none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
 /*main content */
-Main {
-    background-color: lightblue;
+main {
+    background-color: pink;
     /*make main element push footer*/
     flex: 1 0 auto;
     font-family: 'Open Sans';
